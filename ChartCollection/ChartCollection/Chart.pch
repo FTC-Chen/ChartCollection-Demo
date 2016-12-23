@@ -1,0 +1,25 @@
+//
+//  Chart.pch
+//  ChartCollection
+//
+//  Created by anyongxue on 2016/12/23.
+//  Copyright © 2016年 cc. All rights reserved.
+//
+
+#ifndef Chart_pch
+#define Chart_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "PNChart.h"
+
+#define KScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define KScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define KVIEWBGColor [UIColor colorWithRed:0.95 green:0.95 blue:0.95 alpha:1]
+//#define PNFreshGreen    [UIColor colorWithRed:77.0 / 255.0 green:196.0 / 255.0 blue:122.0 / 255.0 alpha:1.0f]
+#define PNTwitterColor  [UIColor colorWithRed:0.0 / 255.0 green:171.0 / 255.0 blue:243.0 / 255.0 alpha:1.0]
+
+#define ARC4RANDOM_MAX 0x100000000
+
+#endif /* Chart_pch */
