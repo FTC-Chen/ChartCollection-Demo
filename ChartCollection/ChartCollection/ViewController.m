@@ -14,6 +14,7 @@
 #import "ScatterChartViewController.h"
 #import "RadarChartViewController.h"
 #import "CountingLabelViewController.h"
+#import "InternetReachViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -55,7 +56,7 @@
 #pragma mark - TabelViewDelegate && DataSoure -
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 7;
+    return 8;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -96,6 +97,10 @@
     }else if (indexPath.row == 6){
         
         cell.textLabel.text = @"UICountingLabel使用";
+        
+    }else if (indexPath.row == 7){
+        
+        cell.textLabel.text = @"网络监测";
         
     }
     
@@ -152,7 +157,14 @@
         CountingLabelViewController *countVC = [[CountingLabelViewController alloc] init];
         
         [self.navigationController pushViewController:countVC animated:YES];
+   
+    }else if (indexPath.row==7){
+        //点状分布图
+        InternetReachViewController *interReachVC = [[InternetReachViewController alloc] init];
+        
+        [self.navigationController pushViewController:interReachVC animated:YES];
     }
+
 
     
 }
