@@ -23,12 +23,12 @@
     PNCircleChart *circleChart = [[PNCircleChart alloc] initWithFrame:
                                   CGRectMake(0,150.0, SCREEN_WIDTH, 100.0)
                                                                 total:@100
-                                                              current:@60
+                                                              current:@100
                                                             clockwise:YES];
     
     circleChart.backgroundColor = [UIColor clearColor];
     
-    [circleChart setStrokeColor:[UIColor clearColor]];
+    [circleChart setStrokeColor:[UIColor grayColor]];
     
     [circleChart setStrokeColorGradientStart:PNLightGreen];
     

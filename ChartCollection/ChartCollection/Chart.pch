@@ -20,6 +20,13 @@
 //#define PNFreshGreen    [UIColor colorWithRed:77.0 / 255.0 green:196.0 / 255.0 blue:122.0 / 255.0 alpha:1.0f]
 #define PNTwitterColor  [UIColor colorWithRed:0.0 / 255.0 green:171.0 / 255.0 blue:243.0 / 255.0 alpha:1.0]
 
+#define PNmidGray [UIColor colorWithRed:140.0 / 255.0 green:140.0 / 255.0 blue:140.0 / 255.0 alpha:1.0f];
+
+#define TextColor [UIColor colorWithRed:100.0 / 255.0 green:100.0 / 255.0 blue:100.0 / 255.0 alpha:1.0f];
+
+#define tableLineColor [UIColor colorWithRed:200.0 / 255.0 green:199.0 / 255.0 blue:204.0/ 255.0 alpha:1.0f];
+
+
 #define ARC4RANDOM_MAX 0x100000000
 
 #endif /* Chart_pch */

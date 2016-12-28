@@ -15,6 +15,7 @@
 #import "RadarChartViewController.h"
 #import "CountingLabelViewController.h"
 #import "InternetReachViewController.h"
+#import "LineAndCircleViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -56,7 +57,7 @@
 #pragma mark - TabelViewDelegate && DataSoure -
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 8;
+    return 9;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -102,7 +103,12 @@
         
         cell.textLabel.text = @"网络监测";
         
+    }else if (indexPath.row == 8){
+        
+        cell.textLabel.text = @"条形/圆圈进度";
+        
     }
+
     
     return cell;
 }
@@ -163,8 +169,13 @@
         InternetReachViewController *interReachVC = [[InternetReachViewController alloc] init];
         
         [self.navigationController pushViewController:interReachVC animated:YES];
+    
+    }else if (indexPath.row==8){
+        //点状分布图
+        LineAndCircleViewController *lineAndCirVC = [[LineAndCircleViewController alloc] init];
+        
+        [self.navigationController pushViewController:lineAndCirVC animated:YES];
     }
-
 
     
 }
