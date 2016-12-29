@@ -21,6 +21,9 @@
  
     self.view.backgroundColor = [UIColor whiteColor];
     
+    //此部分我写完后单拿出来建立项目,方便别人下载,地址为:
+    //https://github.com/FTCcheV/LineAndCircleScaleView.git
+    
     //条形比例显示
     LineScaleView *lineView = [[LineScaleView alloc]initWithFrame:CGRectMake(10, 150, KScreenWidth-20, 27)];
     //设置背景色
@@ -50,18 +53,40 @@
     [self.view addSubview:allLabel];
 
     //3
-    UIView *tableLine = [[UIView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(allLabel.frame)+30, KScreenWidth-20, 0.6)];
+    UIView *tableLine = [[UIView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(allLabel.frame)+50, KScreenWidth-20, 0.6)];
     tableLine.backgroundColor = tableLineColor;
     [self.view addSubview:tableLine];
 
     
     //圆圈比例显示
-    CircleScaleView *circleView = [[CircleScaleView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(tableLine.frame)+70, KScreenWidth-20, 160)];
+    CircleScaleView *circleView = [[CircleScaleView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(tableLine.frame)+60, KScreenWidth-20, 160)];
     circleView.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:circleView];
 
     circleView.maxValue=100;
     circleView.currentValue =80;
+    
+    [circleView startAnimationTimer];
+    
+    //1.增加显示label
+    UILabel *scaleLabel = [[UILabel alloc] initWithFrame:CGRectMake((CGRectGetWidth(circleView.frame)-120)/2, (CGRectGetHeight(circleView.frame)-24)/2, 120, 24)];
+    scaleLabel.backgroundColor = [UIColor clearColor];
+    scaleLabel.text = @"可用额度:8000";
+    scaleLabel.textColor = TextColor;
+    scaleLabel.textAlignment = NSTextAlignmentCenter;
+    scaleLabel.font = [UIFont systemFontOfSize:16];
+    [circleView addSubview:scaleLabel];
+    
+    
+    //2.
+    UILabel *allScaleLabel = [[UILabel alloc] initWithFrame:CGRectMake(KScreenWidth-135, CGRectGetMaxY(circleView.frame)+15, 120, 24)];
+    allScaleLabel.backgroundColor = [UIColor clearColor];
+    allScaleLabel.text = @"总额度:12000";
+    allScaleLabel.textColor = TextColor;
+    allScaleLabel.textAlignment = NSTextAlignmentRight;
+    allScaleLabel.font = [UIFont systemFontOfSize:16];
+    [self.view addSubview:allScaleLabel];
+
 }
 
 - (void)didReceiveMemoryWarning {

@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		7B58F3C21E0CCAA7003991C8 /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B58F3C11E0CCAA7003991C8 /* LineChartViewController.m */; };
 		7B58F3C61E0CF3EA003991C8 /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B58F3C51E0CF3EA003991C8 /* BarChartViewController.m */; };
+		7B7208151E151E3D00BCFAE9 /* countingLabel.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B72080D1E151E3D00BCFAE9 /* countingLabel.png */; };
+		7B7208161E151E3D00BCFAE9 /* PNChart-圆圈进度.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B72080E1E151E3D00BCFAE9 /* PNChart-圆圈进度.png */; };
+		7B7208171E151E3D00BCFAE9 /* PNChart-无线电图.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B72080F1E151E3D00BCFAE9 /* PNChart-无线电图.png */; };
+		7B7208181E151E3D00BCFAE9 /* PNChart-柱状图.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7208101E151E3D00BCFAE9 /* PNChart-柱状图.png */; };
+		7B7208191E151E3D00BCFAE9 /* PNChart-点状分布图.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7208111E151E3D00BCFAE9 /* PNChart-点状分布图.png */; };
+		7B72081A1E151E3D00BCFAE9 /* PNChart-线形图.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7208121E151E3D00BCFAE9 /* PNChart-线形图.png */; };
+		7B72081B1E151E3D00BCFAE9 /* PNChart-饼形图.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7208131E151E3D00BCFAE9 /* PNChart-饼形图.png */; };
+		7B72081C1E151E3D00BCFAE9 /* 比例显示.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7208141E151E3D00BCFAE9 /* 比例显示.png */; };
 		7B8169911E13B83D00FC759E /* CircleScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8169901E13B83D00FC759E /* CircleScaleView.m */; };
 		7B9CECD21E127A5C00A7277D /* LineAndCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CECD11E127A5C00A7277D /* LineAndCircleViewController.m */; };
 		7B9CECD51E127C1400A7277D /* LineScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CECD41E127C1400A7277D /* LineScaleView.m */; };
@@ -83,6 +91,14 @@
 		7B58F3C31E0CD138003991C8 /* Chart.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart.pch; sourceTree = "<group>"; };
 		7B58F3C41E0CF3EA003991C8 /* BarChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarChartViewController.h; sourceTree = "<group>"; };
 		7B58F3C51E0CF3EA003991C8 /* BarChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarChartViewController.m; sourceTree = "<group>"; };
+		7B72080D1E151E3D00BCFAE9 /* countingLabel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = countingLabel.png; sourceTree = "<group>"; };
+		7B72080E1E151E3D00BCFAE9 /* PNChart-圆圈进度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNChart-圆圈进度.png"; sourceTree = "<group>"; };
+		7B72080F1E151E3D00BCFAE9 /* PNChart-无线电图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNChart-无线电图.png"; sourceTree = "<group>"; };
+		7B7208101E151E3D00BCFAE9 /* PNChart-柱状图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNChart-柱状图.png"; sourceTree = "<group>"; };
+		7B7208111E151E3D00BCFAE9 /* PNChart-点状分布图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNChart-点状分布图.png"; sourceTree = "<group>"; };
+		7B7208121E151E3D00BCFAE9 /* PNChart-线形图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNChart-线形图.png"; sourceTree = "<group>"; };
+		7B7208131E151E3D00BCFAE9 /* PNChart-饼形图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNChart-饼形图.png"; sourceTree = "<group>"; };
+		7B7208141E151E3D00BCFAE9 /* 比例显示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "比例显示.png"; sourceTree = "<group>"; };
 		7B81698F1E13B83D00FC759E /* CircleScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleScaleView.h; sourceTree = "<group>"; };
 		7B8169901E13B83D00FC759E /* CircleScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleScaleView.m; sourceTree = "<group>"; };
 		7B9CECD01E127A5C00A7277D /* LineAndCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineAndCircleViewController.h; sourceTree = "<group>"; };
@@ -208,6 +224,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B72080C1E151E3D00BCFAE9 /* 截图效果 */ = {
+			isa = PBXGroup;
+			children = (
+				7B72080D1E151E3D00BCFAE9 /* countingLabel.png */,
+				7B72080E1E151E3D00BCFAE9 /* PNChart-圆圈进度.png */,
+				7B72080F1E151E3D00BCFAE9 /* PNChart-无线电图.png */,
+				7B7208101E151E3D00BCFAE9 /* PNChart-柱状图.png */,
+				7B7208111E151E3D00BCFAE9 /* PNChart-点状分布图.png */,
+				7B7208121E151E3D00BCFAE9 /* PNChart-线形图.png */,
+				7B7208131E151E3D00BCFAE9 /* PNChart-饼形图.png */,
+				7B7208141E151E3D00BCFAE9 /* 比例显示.png */,
+			);
+			path = "截图效果";
+			sourceTree = "<group>";
+		};
 		7BC689261E10F7E300A63E9E /* RealReachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +355,7 @@
 				7BF4FDE71E07E9680049CB8A /* Assets.xcassets */,
 				7BF4FDE91E07E9680049CB8A /* LaunchScreen.storyboard */,
 				7BF4FDEC1E07E9680049CB8A /* Info.plist */,
+				7B72080C1E151E3D00BCFAE9 /* 截图效果 */,
 				7BF4FDDB1E07E9680049CB8A /* Supporting Files */,
 			);
 			path = ChartCollection;
@@ -505,10 +537,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BC6894E1E10F7E300A63E9E /* Info.plist in Resources */,
+				7B7208191E151E3D00BCFAE9 /* PNChart-点状分布图.png in Resources */,
+				7B7208151E151E3D00BCFAE9 /* countingLabel.png in Resources */,
+				7B72081B1E151E3D00BCFAE9 /* PNChart-饼形图.png in Resources */,
+				7B7208171E151E3D00BCFAE9 /* PNChart-无线电图.png in Resources */,
+				7B72081A1E151E3D00BCFAE9 /* PNChart-线形图.png in Resources */,
 				7BF4FDEB1E07E9680049CB8A /* LaunchScreen.storyboard in Resources */,
 				7BF4FDE81E07E9680049CB8A /* Assets.xcassets in Resources */,
 				7BF4FDE61E07E9680049CB8A /* Main.storyboard in Resources */,
 				7BC689571E10F91B00A63E9E /* InternetReachViewController.xib in Resources */,
+				7B7208181E151E3D00BCFAE9 /* PNChart-柱状图.png in Resources */,
+				7B7208161E151E3D00BCFAE9 /* PNChart-圆圈进度.png in Resources */,
+				7B72081C1E151E3D00BCFAE9 /* 比例显示.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
