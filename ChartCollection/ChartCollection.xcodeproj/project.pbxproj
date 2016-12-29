@@ -767,7 +767,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ChartCollection/Chart.pch";
 				INFOPLIST_FILE = ChartCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunac.RongYDLearn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ChartCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -780,7 +780,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ChartCollection/Chart.pch";
 				INFOPLIST_FILE = ChartCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunac.RongYDLearn;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.ChartCollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
