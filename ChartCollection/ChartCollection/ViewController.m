@@ -16,6 +16,7 @@
 #import "CountingLabelViewController.h"
 #import "InternetReachViewController.h"
 #import "LineAndCircleViewController.h"
+#import "ColorTestViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -57,7 +58,7 @@
 #pragma mark - TabelViewDelegate && DataSoure -
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 9;
+    return 11;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -107,8 +108,11 @@
         
         cell.textLabel.text = @"条形/圆圈进度";
         
+    }else if (indexPath.row == 9){
+        
+        cell.textLabel.text = @"颜色测试";
+        
     }
-
     
     return cell;
 }
@@ -171,10 +175,16 @@
         [self.navigationController pushViewController:interReachVC animated:YES];
     
     }else if (indexPath.row==8){
-        //点状分布图
+        //线形与圆形进度图
         LineAndCircleViewController *lineAndCirVC = [[LineAndCircleViewController alloc] init];
         
         [self.navigationController pushViewController:lineAndCirVC animated:YES];
+    
+    }else if (indexPath.row==9){
+        //颜色测试
+        ColorTestViewController *colorTestVC = [[ColorTestViewController alloc] init];
+        
+        [self.navigationController pushViewController:colorTestVC animated:YES];
     }
 
     

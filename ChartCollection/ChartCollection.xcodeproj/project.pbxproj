@@ -17,6 +17,9 @@
 		7B72081A1E151E3D00BCFAE9 /* PNChart-线形图.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7208121E151E3D00BCFAE9 /* PNChart-线形图.png */; };
 		7B72081B1E151E3D00BCFAE9 /* PNChart-饼形图.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7208131E151E3D00BCFAE9 /* PNChart-饼形图.png */; };
 		7B72081C1E151E3D00BCFAE9 /* 比例显示.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7208141E151E3D00BCFAE9 /* 比例显示.png */; };
+		7B770C041E1B4A8500404180 /* ColorTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B770C031E1B4A8500404180 /* ColorTestViewController.m */; };
+		7B770C091E1B4FF000404180 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B770C081E1B4FF000404180 /* UIColor+HexColor.m */; };
+		7B770C0B1E1B51B400404180 /* ColorTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B770C0A1E1B51B400404180 /* ColorTestViewController.xib */; };
 		7B8169911E13B83D00FC759E /* CircleScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8169901E13B83D00FC759E /* CircleScaleView.m */; };
 		7B9CECD21E127A5C00A7277D /* LineAndCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CECD11E127A5C00A7277D /* LineAndCircleViewController.m */; };
 		7B9CECD51E127C1400A7277D /* LineScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CECD41E127C1400A7277D /* LineScaleView.m */; };
@@ -99,6 +102,11 @@
 		7B7208121E151E3D00BCFAE9 /* PNChart-线形图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNChart-线形图.png"; sourceTree = "<group>"; };
 		7B7208131E151E3D00BCFAE9 /* PNChart-饼形图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PNChart-饼形图.png"; sourceTree = "<group>"; };
 		7B7208141E151E3D00BCFAE9 /* 比例显示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "比例显示.png"; sourceTree = "<group>"; };
+		7B770C021E1B4A8500404180 /* ColorTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorTestViewController.h; sourceTree = "<group>"; };
+		7B770C031E1B4A8500404180 /* ColorTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorTestViewController.m; sourceTree = "<group>"; };
+		7B770C071E1B4FF000404180 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		7B770C081E1B4FF000404180 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		7B770C0A1E1B51B400404180 /* ColorTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorTestViewController.xib; sourceTree = "<group>"; };
 		7B81698F1E13B83D00FC759E /* CircleScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleScaleView.h; sourceTree = "<group>"; };
 		7B8169901E13B83D00FC759E /* CircleScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleScaleView.m; sourceTree = "<group>"; };
 		7B9CECD01E127A5C00A7277D /* LineAndCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineAndCircleViewController.h; sourceTree = "<group>"; };
@@ -351,6 +359,11 @@
 				7B9CECD41E127C1400A7277D /* LineScaleView.m */,
 				7B81698F1E13B83D00FC759E /* CircleScaleView.h */,
 				7B8169901E13B83D00FC759E /* CircleScaleView.m */,
+				7B770C021E1B4A8500404180 /* ColorTestViewController.h */,
+				7B770C031E1B4A8500404180 /* ColorTestViewController.m */,
+				7B770C0A1E1B51B400404180 /* ColorTestViewController.xib */,
+				7B770C071E1B4FF000404180 /* UIColor+HexColor.h */,
+				7B770C081E1B4FF000404180 /* UIColor+HexColor.m */,
 				7BF4FDE41E07E9680049CB8A /* Main.storyboard */,
 				7BF4FDE71E07E9680049CB8A /* Assets.xcassets */,
 				7BF4FDE91E07E9680049CB8A /* LaunchScreen.storyboard */,
@@ -536,6 +549,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B770C0B1E1B51B400404180 /* ColorTestViewController.xib in Resources */,
 				7BC6894E1E10F7E300A63E9E /* Info.plist in Resources */,
 				7B7208191E151E3D00BCFAE9 /* PNChart-点状分布图.png in Resources */,
 				7B7208151E151E3D00BCFAE9 /* countingLabel.png in Resources */,
@@ -589,10 +603,12 @@
 				7BC689481E10F7E300A63E9E /* ReachState.m in Sources */,
 				7B9CECD51E127C1400A7277D /* LineScaleView.m in Sources */,
 				7BC689191E0D136400A63E9E /* PieChartViewController.m in Sources */,
+				7B770C041E1B4A8500404180 /* ColorTestViewController.m in Sources */,
 				7BF4FE331E07EF7C0049CB8A /* PNChartLabel.m in Sources */,
 				7BF4FDE01E07E9680049CB8A /* AppDelegate.m in Sources */,
 				7BF4FE401E07EF7C0049CB8A /* PNScatterChartDataItem.m in Sources */,
 				7BC689521E10F7E300A63E9E /* RealReachability.m in Sources */,
+				7B770C091E1B4FF000404180 /* UIColor+HexColor.m in Sources */,
 				7BF4FE3B1E07EF7C0049CB8A /* PNPieChartDataItem.m in Sources */,
 				7BF4FDDD1E07E9680049CB8A /* main.m in Sources */,
 				7BC6894C1E10F7E300A63E9E /* ReachStateWIFI.m in Sources */,

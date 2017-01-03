@@ -27,6 +27,8 @@
 #define tableLineColor [UIColor colorWithRed:200.0 / 255.0 green:199.0 / 255.0 blue:204.0/ 255.0 alpha:1.0f];
 
 
+
+
 #define ARC4RANDOM_MAX 0x100000000
 
 #endif /* Chart_pch */
