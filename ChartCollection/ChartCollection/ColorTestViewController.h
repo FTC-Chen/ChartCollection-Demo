@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ColorProtocol.h"
 
-@interface ColorTestViewController : UIViewController
+@protocol changeColorDelegate <NSObject>
+
+- (void)InmyWaytoChangeColor;
+
+@end
+
+@interface ColorTestViewController : UIViewController<ColorProtocol>
+
+@property (nonatomic,weak)id <changeColorDelegate> colorChangeDelegate;
+
+
+- (void)changeColorNow;
 
 @end

@@ -5,13 +5,14 @@
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11542"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ColorTestViewController">
             <connections>
                 <outlet property="TestView" destination="YEx-ww-roL" id="36t-6S-Ac2"/>
+                <outlet property="textField" destination="eq6-D7-VKO" id="O7A-BW-r2j"/>
                 <outlet property="view" destination="ia6-rm-rRj" id="pRA-26-wg2"/>
             </connections>
         </placeholder>
@@ -27,12 +28,38 @@
                         <constraint firstAttribute="height" constant="128" id="9ZY-5P-Eb5"/>
                     </constraints>
                 </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdP-Zd-3aR">
+                    <rect key="frame" x="16" y="272" width="343" height="46"/>
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="46" id="KzH-U9-xHl"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <connections>
+                        <action selector="PushAction:" destination="-1" eventType="touchUpInside" id="OOH-j4-dBZ"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eq6-D7-VKO">
+                    <rect key="frame" x="16" y="387" width="343" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Skb-7C-UzH"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="YEx-ww-roL" firstAttribute="leading" secondItem="ia6-rm-rRj" secondAttribute="leading" constant="16" id="7Ca-G0-uOd"/>
+                <constraint firstAttribute="trailing" secondItem="eq6-D7-VKO" secondAttribute="trailing" constant="16" id="DaI-qQ-YcF"/>
+                <constraint firstItem="eq6-D7-VKO" firstAttribute="top" secondItem="fdP-Zd-3aR" secondAttribute="bottom" constant="69" id="IGZ-8D-KD0"/>
                 <constraint firstAttribute="trailing" secondItem="YEx-ww-roL" secondAttribute="trailing" constant="16" id="JGm-ag-M97"/>
+                <constraint firstAttribute="trailing" secondItem="fdP-Zd-3aR" secondAttribute="trailing" constant="16" id="W1k-YB-Sr6"/>
+                <constraint firstItem="fdP-Zd-3aR" firstAttribute="leading" secondItem="ia6-rm-rRj" secondAttribute="leading" constant="16" id="aYA-yx-PT0"/>
+                <constraint firstItem="eq6-D7-VKO" firstAttribute="leading" secondItem="ia6-rm-rRj" secondAttribute="leading" constant="16" id="j3t-mL-l58"/>
                 <constraint firstItem="YEx-ww-roL" firstAttribute="top" secondItem="ia6-rm-rRj" secondAttribute="top" constant="98" id="j7w-MV-Qo8"/>
+                <constraint firstItem="fdP-Zd-3aR" firstAttribute="top" secondItem="ia6-rm-rRj" secondAttribute="top" constant="272" id="uuT-XI-8Ji"/>
             </constraints>
             <point key="canvasLocation" x="-443.5" y="210.5"/>
         </view>

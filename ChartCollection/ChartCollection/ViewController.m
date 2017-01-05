@@ -17,6 +17,7 @@
 #import "InternetReachViewController.h"
 #import "LineAndCircleViewController.h"
 #import "ColorTestViewController.h"
+#import "DashboardViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -112,6 +113,10 @@
         
         cell.textLabel.text = @"颜色测试";
         
+    }else if (indexPath.row == 10){
+        
+        cell.textLabel.text = @"表盘动画";
+        
     }
     
     return cell;
@@ -131,7 +136,7 @@
         LineChartViewController *lineChart = [[LineChartViewController alloc] init];
         
         [self.navigationController pushViewController:lineChart animated:YES];
-    
+        
     }else if (indexPath.row==1){
         //柱状图
         BarChartViewController *barChart = [[BarChartViewController alloc] init];
@@ -185,6 +190,12 @@
         ColorTestViewController *colorTestVC = [[ColorTestViewController alloc] init];
         
         [self.navigationController pushViewController:colorTestVC animated:YES];
+    
+    }else if (indexPath.row==10){
+        //颜色测试
+        DashboardViewController *dashboardVC = [[DashboardViewController alloc] init];
+        
+        [self.navigationController pushViewController:dashboardVC animated:YES];
     }
 
     
