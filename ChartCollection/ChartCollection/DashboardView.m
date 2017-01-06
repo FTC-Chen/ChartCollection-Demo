@@ -49,7 +49,7 @@ static const CGFloat kFastProportion = 0.9;
     
     if (self) {
         
-        self.backgroundColor = [UIColor lightTextColor];
+        self.backgroundColor = [UIColor clearColor];
         
         self.circelDiameter = self.frame.size.width-10.f;
         self.lineWidth = 2.f;

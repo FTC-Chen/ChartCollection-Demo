@@ -44,7 +44,7 @@
     
     NSString *startNumber= @"350";
     
-    NSString *endNumber = [NSString stringWithFormat:@"%.f",700.f];//@"693";
+    NSString *endNumber = [NSString stringWithFormat:@"%.f",715.f];//@"693";
     
     [self.dashboardView refreshFromStartNum:startNumber toEndNum:endNumber];
     
