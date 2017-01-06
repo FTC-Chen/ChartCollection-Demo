@@ -10,4 +10,6 @@
 
 @interface GradientView : UIView
 
+- (void)setUpBackGroundColorWithColorArrayIndex:(NSInteger)index;
+
 @end

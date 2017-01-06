@@ -102,6 +102,21 @@
     return _gradientLayer;
 }
 
+- (void)setUpBackGroundColorWithColorArrayIndex:(NSInteger)index{
+    
+    UIColor *topColor = self.topColorArray[index];
+    UIColor *centerColor = self.centerColorArray[index];
+    UIColor *bottomColor = self.bottomColorArray[index];
+    
+    _gradientLayer.colors = [NSArray arrayWithObjects:
+                             (__bridge id)[bottomColor CGColor],
+                             (__bridge id)[centerColor CGColor],
+                             (__bridge id)[topColor CGColor],nil];
+    
+    //[self setNeedsDisplay];
+    
+    [self setNeedsLayout];
+}
 
 /*
 // Only override drawRect: if you perform custom drawing.

@@ -12,4 +12,9 @@
 
 @property (nonatomic,strong)UIImageView *bgImageView; // 背景图片
 
+@property (nonatomic, copy) void(^TimerBlock)(NSInteger);
+
+//刷新跳跃数字
+- (void)refreshFromStartNum:(NSString *)startNum toEndNum:(NSString *)endNum;
+
 @end

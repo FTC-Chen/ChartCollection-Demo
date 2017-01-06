@@ -12,6 +12,10 @@
 
 @interface DashboardViewController ()
 
+@property (nonatomic,strong)GradientView *gradView;
+
+@property (nonatomic,strong)DashboardView *dashboardView ;
+
 @end
 
 @implementation DashboardViewController
@@ -22,15 +26,35 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     //创建一个渐变色View
-    GradientView *gradView = [[GradientView alloc] initWithFrame:CGRectMake(0, 64, KScreenWidth, KScreenHeight-64)];
+    self.gradView = [[GradientView alloc] initWithFrame:CGRectMake(0, 64, KScreenWidth, KScreenHeight-64)];
     
-    [self.view addSubview:gradView];
+    [self.view addSubview:self.gradView];
     
     
     //创建表盘view
-    DashboardView *dashView = [[DashboardView alloc] initWithFrame:CGRectMake(30, 130, KScreenWidth-60, KScreenWidth-60)];
-    dashView.bgImageView.image = [UIImage imageNamed:@"backgroundImage@2x"];
-    [self.view addSubview:dashView];
+    self.dashboardView = [[DashboardView alloc] initWithFrame:CGRectMake(30, 130, KScreenWidth-60, KScreenWidth-60)];
+    self.dashboardView.bgImageView.image = [UIImage imageNamed:@"backgroundImage@2x"];
+    [self.view addSubview:self.dashboardView];
+    
+    //开启动画
+    [self startDashboardAnimation];
+}
+
+- (void)startDashboardAnimation{
+    
+    NSString *startNumber= @"350";
+    
+    NSString *endNumber = [NSString stringWithFormat:@"%.f",700.f];//@"693";
+    
+    [self.dashboardView refreshFromStartNum:startNumber toEndNum:endNumber];
+    
+    __block typeof(self)blockSelf = self;
+    
+    self.dashboardView.TimerBlock = ^(NSInteger index) {
+        
+        [blockSelf.gradView setUpBackGroundColorWithColorArrayIndex:index];
+    };
+
 }
 
 - (void)didReceiveMemoryWarning {
