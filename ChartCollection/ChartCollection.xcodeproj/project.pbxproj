@@ -29,6 +29,8 @@
 		7B770C091E1B4FF000404180 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B770C081E1B4FF000404180 /* UIColor+HexColor.m */; };
 		7B770C0B1E1B51B400404180 /* ColorTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B770C0A1E1B51B400404180 /* ColorTestViewController.xib */; };
 		7B8169911E13B83D00FC759E /* CircleScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8169901E13B83D00FC759E /* CircleScaleView.m */; };
+		7B8791C01E238700007C92A6 /* 本地推送.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7B8791BE1E238700007C92A6 /* 本地推送.PNG */; };
+		7B8791C11E238700007C92A6 /* TouchID.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7B8791BF1E238700007C92A6 /* TouchID.PNG */; };
 		7B8EA8B51E1E56D900EC4869 /* ProtocolAndDelegate.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EA8B41E1E56D900EC4869 /* ProtocolAndDelegate.zip */; };
 		7B9CECD21E127A5C00A7277D /* LineAndCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CECD11E127A5C00A7277D /* LineAndCircleViewController.m */; };
 		7B9CECD51E127C1400A7277D /* LineScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CECD41E127C1400A7277D /* LineScaleView.m */; };
@@ -138,6 +140,8 @@
 		7B770C0A1E1B51B400404180 /* ColorTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorTestViewController.xib; sourceTree = "<group>"; };
 		7B81698F1E13B83D00FC759E /* CircleScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleScaleView.h; sourceTree = "<group>"; };
 		7B8169901E13B83D00FC759E /* CircleScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleScaleView.m; sourceTree = "<group>"; };
+		7B8791BE1E238700007C92A6 /* 本地推送.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "本地推送.PNG"; sourceTree = "<group>"; };
+		7B8791BF1E238700007C92A6 /* TouchID.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TouchID.PNG; sourceTree = "<group>"; };
 		7B8EA8B41E1E56D900EC4869 /* ProtocolAndDelegate.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = ProtocolAndDelegate.zip; sourceTree = "<group>"; };
 		7B9CECD01E127A5C00A7277D /* LineAndCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineAndCircleViewController.h; sourceTree = "<group>"; };
 		7B9CECD11E127A5C00A7277D /* LineAndCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineAndCircleViewController.m; sourceTree = "<group>"; };
@@ -272,6 +276,8 @@
 		7B72080C1E151E3D00BCFAE9 /* 截图效果 */ = {
 			isa = PBXGroup;
 			children = (
+				7B8791BE1E238700007C92A6 /* 本地推送.PNG */,
+				7B8791BF1E238700007C92A6 /* TouchID.PNG */,
 				7BD6186C1E1FA83E00B7CCAC /* 表盘动画.PNG */,
 				7B72080D1E151E3D00BCFAE9 /* countingLabel.png */,
 				7B72080E1E151E3D00BCFAE9 /* PNChart-圆圈进度.png */,
@@ -628,6 +634,7 @@
 				7BC6894E1E10F7E300A63E9E /* Info.plist in Resources */,
 				7B7208191E151E3D00BCFAE9 /* PNChart-点状分布图.png in Resources */,
 				7B7208151E151E3D00BCFAE9 /* countingLabel.png in Resources */,
+				7B8791C01E238700007C92A6 /* 本地推送.PNG in Resources */,
 				7B72081B1E151E3D00BCFAE9 /* PNChart-饼形图.png in Resources */,
 				7B19DB4D1E1E32F100790450 /* backgroundImage@2x.png in Resources */,
 				7B7208171E151E3D00BCFAE9 /* PNChart-无线电图.png in Resources */,
@@ -640,6 +647,7 @@
 				7BC689571E10F91B00A63E9E /* InternetReachViewController.xib in Resources */,
 				7B7208181E151E3D00BCFAE9 /* PNChart-柱状图.png in Resources */,
 				7B7208161E151E3D00BCFAE9 /* PNChart-圆圈进度.png in Resources */,
+				7B8791C11E238700007C92A6 /* TouchID.PNG in Resources */,
 				7B72081C1E151E3D00BCFAE9 /* 比例显示.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
