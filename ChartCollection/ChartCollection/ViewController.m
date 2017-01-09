@@ -18,6 +18,10 @@
 #import "LineAndCircleViewController.h"
 #import "ColorTestViewController.h"
 #import "DashboardViewController.h"
+#import "LocalNotiViewController.h"
+#import "TouchIDViewController.h"
+
+#import "AppDelegate.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -33,7 +37,6 @@
     
     //创建tableView
     [self.view addSubview:self.chartTableView];
-
 }
 
 
@@ -59,7 +62,7 @@
 #pragma mark - TabelViewDelegate && DataSoure -
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 11;
+    return 13;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -116,8 +119,16 @@
     }else if (indexPath.row == 10){
         
         cell.textLabel.text = @"表盘动画";
+
+    }else if (indexPath.row == 11){
         
+        cell.textLabel.text = @"本地推送通知/角标";
+    
+    }else if (indexPath.row == 12){
+        
+        cell.textLabel.text = @"TouchID";
     }
+
     
     return cell;
 }
@@ -196,11 +207,83 @@
         DashboardViewController *dashboardVC = [[DashboardViewController alloc] init];
         
         [self.navigationController pushViewController:dashboardVC animated:YES];
+    
+    }else if (indexPath.row==11){
+        //本地推送与角标
+        LocalNotiViewController *localNotiVC = [[LocalNotiViewController alloc] init];
+        
+        [self.navigationController pushViewController:localNotiVC animated:YES];
+   
+    }else if (indexPath.row==12){
+        //touchID与角标
+        TouchIDViewController *touchIDVC = [[TouchIDViewController alloc] init];
+        
+        [self.navigationController pushViewController:touchIDVC animated:YES];
     }
-
     
 }
 
+- (IBAction)StartNotification:(id)sender {
+    
+    NSLog(@"开启推送");
+
+    // 1.创建通知
+    UILocalNotification *localNotification1 = [[UILocalNotification alloc] init];
+    
+    // 2.设置通知的必选参数
+    // 设置通知显示的内容
+    localNotification1.alertBody = @"本地推送通知测试";
+    
+    // 设置通知的发送时间
+    localNotification1.fireDate = [NSDate dateWithTimeIntervalSinceNow:5];
+    
+    //其它设置--------------
+    // 设置时区跟随手机系统时区
+    localNotification1.timeZone = [NSTimeZone defaultTimeZone];
+    
+    // 设置通知的重复周期(最低一分钟)
+    //localNotification1.repeatInterval = kCFCalendarUnitMinute;
+    
+    localNotification1.repeatInterval = kCFCalendarUnitMinute;//0为不重复
+    
+    // 设置锁屏状态下, "滑动XXX"
+    localNotification1.hasAction = YES;
+    localNotification1.alertAction = @"这里设置的是清扫部分";//??无效果
+    
+    // 当通知进入锁屏界面时, 滑动通知, 打开APP时, 弹出的启动界面
+    // 注意: 现在这个属性, 没有反应!!!!
+    localNotification1.alertLaunchImage = @"countingLabel.png";
+    
+    // 设置通知的弹框标题
+    if ([UIDevice currentDevice].systemVersion.floatValue >= 8.2) {
+        localNotification1.alertTitle = @"本地推送";
+    }
+    
+    // 推送声音
+    localNotification1.soundName = UILocalNotificationDefaultSoundName;
+    
+    //通知传值
+    localNotification1.userInfo = @{@"name" : @"liwx", @"body" : @"吃饭了没呀~~~"};
+    
+    // 设置应用程序图片右上角的数字(如果想要取消右上角的数字, 直接把这个参数值为0)
+    //NSInteger badge = [UIApplication sharedApplication].applicationIconBadgeNumber;
+    //
+    //    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:badge+1];
+    
+    localNotification1.applicationIconBadgeNumber += 1;
+    
+    // 指定通知使用哪个操作组
+    localNotification1.category = @"select";
+    
+    // 3.发送通知
+    // 方式一: 根据通知的发送时间(fireDate)发送通知
+    [[UIApplication sharedApplication] scheduleLocalNotification:localNotification1];
+    
+    // 方式二: 立即发送通知
+    //[[UIApplication sharedApplication] presentLocalNotificationNow:localNotification];
+
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

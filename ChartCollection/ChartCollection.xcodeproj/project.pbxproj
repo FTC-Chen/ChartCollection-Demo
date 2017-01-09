@@ -11,6 +11,8 @@
 		7B19DB481E1E210E00790450 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DB471E1E210E00790450 /* GradientView.m */; };
 		7B19DB4B1E1E30A900790450 /* DashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DB4A1E1E30A900790450 /* DashboardView.m */; };
 		7B19DB4D1E1E32F100790450 /* backgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B19DB4C1E1E32F100790450 /* backgroundImage@2x.png */; };
+		7B3C67231E2325A800F4AD93 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C67221E2325A800F4AD93 /* TouchIDViewController.m */; };
+		7B3C67261E2328F600F4AD93 /* LocalNotiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C67251E2328F600F4AD93 /* LocalNotiViewController.m */; };
 		7B58F3C21E0CCAA7003991C8 /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B58F3C11E0CCAA7003991C8 /* LineChartViewController.m */; };
 		7B58F3C61E0CF3EA003991C8 /* BarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B58F3C51E0CF3EA003991C8 /* BarChartViewController.m */; };
 		7B65A4331E1CF0F000888298 /* ColorDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B65A4321E1CF0F000888298 /* ColorDelegateViewController.m */; };
@@ -30,6 +32,9 @@
 		7B8EA8B51E1E56D900EC4869 /* ProtocolAndDelegate.zip in Resources */ = {isa = PBXBuildFile; fileRef = 7B8EA8B41E1E56D900EC4869 /* ProtocolAndDelegate.zip */; };
 		7B9CECD21E127A5C00A7277D /* LineAndCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CECD11E127A5C00A7277D /* LineAndCircleViewController.m */; };
 		7B9CECD51E127C1400A7277D /* LineScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CECD41E127C1400A7277D /* LineScaleView.m */; };
+		7BAFC71A1E2358960071B8BC /* NSArray+ ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC7141E2358960071B8BC /* NSArray+ ZXPUnicode.m */; };
+		7BAFC71B1E2358960071B8BC /* NSDictionary+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC7171E2358960071B8BC /* NSDictionary+ZXPUnicode.m */; };
+		7BAFC71C1E2358960071B8BC /* NSObject+ZXPUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFC7191E2358960071B8BC /* NSObject+ZXPUnicode.m */; };
 		7BC689161E0D11EA00A63E9E /* CircleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC689151E0D11EA00A63E9E /* CircleChartViewController.m */; };
 		7BC689191E0D136400A63E9E /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC689181E0D136400A63E9E /* PieChartViewController.m */; };
 		7BC6891C1E0D160B00A63E9E /* ScatterChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC6891B1E0D160B00A63E9E /* ScatterChartViewController.m */; };
@@ -104,6 +109,11 @@
 		7B19DB491E1E30A900790450 /* DashboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardView.h; sourceTree = "<group>"; };
 		7B19DB4A1E1E30A900790450 /* DashboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardView.m; sourceTree = "<group>"; };
 		7B19DB4C1E1E32F100790450 /* backgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundImage@2x.png"; sourceTree = "<group>"; };
+		7B3C67211E2325A800F4AD93 /* TouchIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIDViewController.h; sourceTree = "<group>"; };
+		7B3C67221E2325A800F4AD93 /* TouchIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIDViewController.m; sourceTree = "<group>"; };
+		7B3C67241E2328F600F4AD93 /* LocalNotiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotiViewController.h; sourceTree = "<group>"; };
+		7B3C67251E2328F600F4AD93 /* LocalNotiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotiViewController.m; sourceTree = "<group>"; };
+		7B57E4421E23346F001B2E92 /* ChartCollection.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChartCollection.entitlements; sourceTree = "<group>"; };
 		7B58F3C01E0CCAA7003991C8 /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
 		7B58F3C11E0CCAA7003991C8 /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
 		7B58F3C31E0CD138003991C8 /* Chart.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chart.pch; sourceTree = "<group>"; };
@@ -133,6 +143,12 @@
 		7B9CECD11E127A5C00A7277D /* LineAndCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineAndCircleViewController.m; sourceTree = "<group>"; };
 		7B9CECD31E127C1400A7277D /* LineScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineScaleView.h; sourceTree = "<group>"; };
 		7B9CECD41E127C1400A7277D /* LineScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineScaleView.m; sourceTree = "<group>"; };
+		7BAFC7141E2358960071B8BC /* NSArray+ ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ ZXPUnicode.m"; sourceTree = "<group>"; };
+		7BAFC7151E2358960071B8BC /* NSArray+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZXPUnicode.h"; sourceTree = "<group>"; };
+		7BAFC7161E2358960071B8BC /* NSDictionary+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZXPUnicode.h"; sourceTree = "<group>"; };
+		7BAFC7171E2358960071B8BC /* NSDictionary+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZXPUnicode.m"; sourceTree = "<group>"; };
+		7BAFC7181E2358960071B8BC /* NSObject+ZXPUnicode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXPUnicode.h"; sourceTree = "<group>"; };
+		7BAFC7191E2358960071B8BC /* NSObject+ZXPUnicode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXPUnicode.m"; sourceTree = "<group>"; };
 		7BC689141E0D11EA00A63E9E /* CircleChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleChartViewController.h; sourceTree = "<group>"; };
 		7BC689151E0D11EA00A63E9E /* CircleChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleChartViewController.m; sourceTree = "<group>"; };
 		7BC689171E0D136400A63E9E /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
@@ -270,6 +286,19 @@
 			path = "截图效果";
 			sourceTree = "<group>";
 		};
+		7BAFC7131E2358960071B8BC /* ZXPUnicode */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFC7141E2358960071B8BC /* NSArray+ ZXPUnicode.m */,
+				7BAFC7151E2358960071B8BC /* NSArray+ZXPUnicode.h */,
+				7BAFC7161E2358960071B8BC /* NSDictionary+ZXPUnicode.h */,
+				7BAFC7171E2358960071B8BC /* NSDictionary+ZXPUnicode.m */,
+				7BAFC7181E2358960071B8BC /* NSObject+ZXPUnicode.h */,
+				7BAFC7191E2358960071B8BC /* NSObject+ZXPUnicode.m */,
+			);
+			path = ZXPUnicode;
+			sourceTree = "<group>";
+		};
 		7BC689261E10F7E300A63E9E /* RealReachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -351,8 +380,10 @@
 		7BF4FDDA1E07E9680049CB8A /* ChartCollection */ = {
 			isa = PBXGroup;
 			children = (
+				7B57E4421E23346F001B2E92 /* ChartCollection.entitlements */,
 				7BF4FEB31E07F1E40049CB8A /* UICountingLabel.h */,
 				7BF4FEB41E07F1E40049CB8A /* UICountingLabel.m */,
+				7BAFC7131E2358960071B8BC /* ZXPUnicode */,
 				7BF4FE0E1E07EF7C0049CB8A /* PNChart */,
 				7BC689261E10F7E300A63E9E /* RealReachability */,
 				7BF4FDDE1E07E9680049CB8A /* AppDelegate.h */,
@@ -397,6 +428,10 @@
 				7B19DB491E1E30A900790450 /* DashboardView.h */,
 				7B19DB4A1E1E30A900790450 /* DashboardView.m */,
 				7B19DB4C1E1E32F100790450 /* backgroundImage@2x.png */,
+				7B3C67241E2328F600F4AD93 /* LocalNotiViewController.h */,
+				7B3C67251E2328F600F4AD93 /* LocalNotiViewController.m */,
+				7B3C67211E2325A800F4AD93 /* TouchIDViewController.h */,
+				7B3C67221E2325A800F4AD93 /* TouchIDViewController.m */,
 				7BF4FDE41E07E9680049CB8A /* Main.storyboard */,
 				7B65A4141E1CD4FB00888298 /* ColorProtocol.h */,
 				7BF4FDE71E07E9680049CB8A /* Assets.xcassets */,
@@ -545,6 +580,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2L98437J77;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					7BF4FDF01E07E9680049CB8A = {
 						CreatedOnToolsVersion = 8.1;
@@ -631,12 +671,15 @@
 				7BF4FE351E07EF7C0049CB8A /* PNColor.m in Sources */,
 				7BF4FE3C1E07EF7C0049CB8A /* PNRadarChart.m in Sources */,
 				7BF4FE3D1E07EF7C0049CB8A /* PNRadarChartDataItem.m in Sources */,
+				7BAFC71A1E2358960071B8BC /* NSArray+ ZXPUnicode.m in Sources */,
 				7BC689161E0D11EA00A63E9E /* CircleChartViewController.m in Sources */,
 				7BF4FDE31E07E9680049CB8A /* ViewController.m in Sources */,
 				7BF4FE311E07EF7C0049CB8A /* PNBar.m in Sources */,
 				7BF4FE3F1E07EF7C0049CB8A /* PNScatterChartData.m in Sources */,
+				7BAFC71B1E2358960071B8BC /* NSDictionary+ZXPUnicode.m in Sources */,
 				7B9CECD21E127A5C00A7277D /* LineAndCircleViewController.m in Sources */,
 				7BC689561E10F91B00A63E9E /* InternetReachViewController.m in Sources */,
+				7B3C67261E2328F600F4AD93 /* LocalNotiViewController.m in Sources */,
 				7BF4FE391E07EF7C0049CB8A /* PNLineChartDataItem.m in Sources */,
 				7BC689481E10F7E300A63E9E /* ReachState.m in Sources */,
 				7B9CECD51E127C1400A7277D /* LineScaleView.m in Sources */,
@@ -646,6 +689,7 @@
 				7BF4FDE01E07E9680049CB8A /* AppDelegate.m in Sources */,
 				7B19DB4B1E1E30A900790450 /* DashboardView.m in Sources */,
 				7BF4FE401E07EF7C0049CB8A /* PNScatterChartDataItem.m in Sources */,
+				7B3C67231E2325A800F4AD93 /* TouchIDViewController.m in Sources */,
 				7BC689521E10F7E300A63E9E /* RealReachability.m in Sources */,
 				7B770C091E1B4FF000404180 /* UIColor+HexColor.m in Sources */,
 				7BF4FE3B1E07EF7C0049CB8A /* PNPieChartDataItem.m in Sources */,
@@ -668,6 +712,7 @@
 				7BC689461E10F7E300A63E9E /* FSMEngine.m in Sources */,
 				7BC689491E10F7E300A63E9E /* ReachStateLoading.m in Sources */,
 				7B58F3C61E0CF3EA003991C8 /* BarChartViewController.m in Sources */,
+				7BAFC71C1E2358960071B8BC /* NSObject+ZXPUnicode.m in Sources */,
 				7BF4FEB51E07F1E40049CB8A /* UICountingLabel.m in Sources */,
 				7BF4FE3A1E07EF7C0049CB8A /* PNPieChart.m in Sources */,
 				7B19DB451E1E1A2600790450 /* DashboardViewController.m in Sources */,
