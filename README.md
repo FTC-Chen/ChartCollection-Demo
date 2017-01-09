@@ -13,8 +13,10 @@
 ![image](https://github.com/FTCcheV/ChartCollection-Demo/blob/master/ChartCollection/ChartCollection/%E6%88%AA%E5%9B%BE%E6%95%88%E6%9E%9C/%E8%A1%A8%E7%9B%98%E5%8A%A8%E7%94%BB.PNG)
 
 5.增加本地推送
+
 ![image](https://github.com/FTCcheV/ChartCollection-Demo/blob/master/ChartCollection/ChartCollection/%E6%88%AA%E5%9B%BE%E6%95%88%E6%9E%9C/%E6%9C%AC%E5%9C%B0%E6%8E%A8%E9%80%81.PNG)
 
 6.增加TouchID
+
 ![image](https://github.com/FTCcheV/ChartCollection-Demo/blob/master/ChartCollection/ChartCollection/%E6%88%AA%E5%9B%BE%E6%95%88%E6%9E%9C/TouchID.PNG)
 
