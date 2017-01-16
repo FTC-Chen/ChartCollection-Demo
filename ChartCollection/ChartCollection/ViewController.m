@@ -20,6 +20,8 @@
 #import "DashboardViewController.h"
 #import "LocalNotiViewController.h"
 #import "TouchIDViewController.h"
+#import "WaterfallCollecViewController.h"
+
 
 #import "AppDelegate.h"
 
@@ -62,7 +64,7 @@
 #pragma mark - TabelViewDelegate && DataSoure -
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
-    return 13;
+    return 14;
 }
 
 - (UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -127,6 +129,10 @@
     }else if (indexPath.row == 12){
         
         cell.textLabel.text = @"TouchID";
+    }
+    else if (indexPath.row == 13){
+        
+        cell.textLabel.text = @"瀑布流";
     }
 
     
@@ -219,6 +225,12 @@
         TouchIDViewController *touchIDVC = [[TouchIDViewController alloc] init];
         
         [self.navigationController pushViewController:touchIDVC animated:YES];
+   
+    }else if (indexPath.row==13){
+        //touchID与角标
+        WaterfallCollecViewController *waterfallVC = [[WaterfallCollecViewController alloc] init];
+        
+        [self.navigationController pushViewController:waterfallVC animated:YES];
     }
     
 }
