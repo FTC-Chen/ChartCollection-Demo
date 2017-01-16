@@ -30,6 +30,7 @@
 		7B0289781E2CC01200CAD978 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0289681E2CC01200CAD978 /* UIView+WebCacheOperation.m */; };
 		7B02897C1E2CC61100CAD978 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B02897B1E2CC61100CAD978 /* placeholder.png */; };
 		7B02897E1E2CC6F600CAD978 /* 瀑布流.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7B02897D1E2CC6F600CAD978 /* 瀑布流.PNG */; };
+		7B0289801E2CCD3900CAD978 /* 瀑布流2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7B02897F1E2CCD3900CAD978 /* 瀑布流2.PNG */; };
 		7B19DB451E1E1A2600790450 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DB441E1E1A2600790450 /* DashboardViewController.m */; };
 		7B19DB481E1E210E00790450 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DB471E1E210E00790450 /* GradientView.m */; };
 		7B19DB4B1E1E30A900790450 /* DashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DB4A1E1E30A900790450 /* DashboardView.m */; };
@@ -171,6 +172,7 @@
 		7B0289681E2CC01200CAD978 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		7B02897B1E2CC61100CAD978 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		7B02897D1E2CC6F600CAD978 /* 瀑布流.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瀑布流.PNG"; sourceTree = "<group>"; };
+		7B02897F1E2CCD3900CAD978 /* 瀑布流2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瀑布流2.PNG"; sourceTree = "<group>"; };
 		7B19DB431E1E1A2600790450 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
 		7B19DB441E1E1A2600790450 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
 		7B19DB461E1E210E00790450 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
@@ -386,6 +388,7 @@
 			isa = PBXGroup;
 			children = (
 				7B02897D1E2CC6F600CAD978 /* 瀑布流.PNG */,
+				7B02897F1E2CCD3900CAD978 /* 瀑布流2.PNG */,
 				7B8791C21E238798007C92A6 /* 本地推送.PNG */,
 				7B8791C31E238798007C92A6 /* TouchID.PNG */,
 				7BD6186C1E1FA83E00B7CCAC /* 表盘动画.PNG */,
@@ -758,6 +761,7 @@
 				7B7208191E151E3D00BCFAE9 /* PNChart-点状分布图.png in Resources */,
 				7B7208151E151E3D00BCFAE9 /* countingLabel.png in Resources */,
 				7B8791C41E238798007C92A6 /* 本地推送.PNG in Resources */,
+				7B0289801E2CCD3900CAD978 /* 瀑布流2.PNG in Resources */,
 				7B72081B1E151E3D00BCFAE9 /* PNChart-饼形图.png in Resources */,
 				7B19DB4D1E1E32F100790450 /* backgroundImage@2x.png in Resources */,
 				7B7208171E151E3D00BCFAE9 /* PNChart-无线电图.png in Resources */,

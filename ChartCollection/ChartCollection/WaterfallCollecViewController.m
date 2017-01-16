@@ -26,7 +26,7 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    WaterfallLayout *waterfall = [WaterfallLayout waterFallLayoutWithColumnCount:3];
+    WaterfallLayout *waterfall = [WaterfallLayout waterFallLayoutWithColumnCount:2];
     
     //或者一次性设置
     [waterfall setColumnSpacing:5 rowSpacing:5 sectionInset:UIEdgeInsetsMake(5, 5, 5, 5)];
