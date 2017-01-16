@@ -20,3 +20,7 @@
 
 ![image](https://github.com/FTCcheV/ChartCollection-Demo/blob/master/ChartCollection/ChartCollection/%E6%88%AA%E5%9B%BE%E6%95%88%E6%9E%9C/TouchID.PNG)
 
+6.增加瀑布流(无头视图)
+
+![image](https://github.com/FTCcheV/ChartCollection-Demo/blob/master/ChartCollection/ChartCollection/%E6%88%AA%E5%9B%BE%E6%95%88%E6%9E%9C/%E7%80%91%E5%B8%83%E6%B5%81.PNG)
+
