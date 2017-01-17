@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RealReachability.h"
+#import "UMMobClick/MobClick.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +25,14 @@
 //    UIUserNotificationSettings *settings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge categories:nil];
 //    
 //    [application registerUserNotificationSettings:settings];
+    
+    
+    UMConfigInstance.appKey = @"587db062c62dca0513000372";
+    UMConfigInstance.channelId = nil;
+    //UMConfigInstance.secret = @"App Store";
+    //UMConfigInstance.eSType = E_UM_GAME; //仅适用于游戏场景，应用统计不用设置
+    
+    [MobClick startWithConfigure:UMConfigInstance];//配置以上参数后调用此方法初始化SDK！
     
     
     //原理-------------

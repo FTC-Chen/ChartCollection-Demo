@@ -29,7 +29,7 @@
     WaterfallLayout *waterfall = [WaterfallLayout waterFallLayoutWithColumnCount:2];
     
     //或者一次性设置
-    [waterfall setColumnSpacing:5 rowSpacing:5 sectionInset:UIEdgeInsetsMake(5, 5, 5, 5)];
+    [waterfall setColumnSpacing:5 rowSpacing:5 sectionInset:UIEdgeInsetsMake(0, 5, 5, 5)];
 
     //设置代理，实现代理方法
     waterfall.delegate = self;

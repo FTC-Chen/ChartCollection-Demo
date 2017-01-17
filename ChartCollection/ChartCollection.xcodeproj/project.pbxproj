@@ -31,6 +31,13 @@
 		7B02897C1E2CC61100CAD978 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B02897B1E2CC61100CAD978 /* placeholder.png */; };
 		7B02897E1E2CC6F600CAD978 /* 瀑布流.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7B02897D1E2CC6F600CAD978 /* 瀑布流.PNG */; };
 		7B0289801E2CCD3900CAD978 /* 瀑布流2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7B02897F1E2CCD3900CAD978 /* 瀑布流2.PNG */; };
+		7B0289831E2CD17C00CAD978 /* HorizWaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0289821E2CD17C00CAD978 /* HorizWaterfallViewController.m */; };
+		7B0289861E2CD24A00CAD978 /* HorizWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0289851E2CD24A00CAD978 /* HorizWaterfallLayout.m */; };
+		7B0289881E2DE87A00CAD978 /* UMMobClick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0289871E2DE87A00CAD978 /* UMMobClick.framework */; };
+		7B02898B1E2DE8A200CAD978 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B02898A1E2DE8A200CAD978 /* CoreTelephony.framework */; };
+		7B02898D1E2DE8AF00CAD978 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B02898C1E2DE8AF00CAD978 /* libz.tbd */; };
+		7B02898F1E2DE8BD00CAD978 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B02898E1E2DE8BD00CAD978 /* libsqlite3.tbd */; };
+		7B0289911E2E053400CAD978 /* 横向瀑布流.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 7B0289901E2E053400CAD978 /* 横向瀑布流.PNG */; };
 		7B19DB451E1E1A2600790450 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DB441E1E1A2600790450 /* DashboardViewController.m */; };
 		7B19DB481E1E210E00790450 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DB471E1E210E00790450 /* GradientView.m */; };
 		7B19DB4B1E1E30A900790450 /* DashboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B19DB4A1E1E30A900790450 /* DashboardView.m */; };
@@ -173,6 +180,15 @@
 		7B02897B1E2CC61100CAD978 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		7B02897D1E2CC6F600CAD978 /* 瀑布流.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瀑布流.PNG"; sourceTree = "<group>"; };
 		7B02897F1E2CCD3900CAD978 /* 瀑布流2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瀑布流2.PNG"; sourceTree = "<group>"; };
+		7B0289811E2CD17C00CAD978 /* HorizWaterfallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizWaterfallViewController.h; sourceTree = "<group>"; };
+		7B0289821E2CD17C00CAD978 /* HorizWaterfallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizWaterfallViewController.m; sourceTree = "<group>"; };
+		7B0289841E2CD24A00CAD978 /* HorizWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizWaterfallLayout.h; sourceTree = "<group>"; };
+		7B0289851E2CD24A00CAD978 /* HorizWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizWaterfallLayout.m; sourceTree = "<group>"; };
+		7B0289871E2DE87A00CAD978 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMMobClick.framework; sourceTree = "<group>"; };
+		7B02898A1E2DE8A200CAD978 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7B02898C1E2DE8AF00CAD978 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7B02898E1E2DE8BD00CAD978 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		7B0289901E2E053400CAD978 /* 横向瀑布流.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "横向瀑布流.PNG"; sourceTree = "<group>"; };
 		7B19DB431E1E1A2600790450 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
 		7B19DB441E1E1A2600790450 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
 		7B19DB461E1E210E00790450 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
@@ -324,6 +340,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B02898F1E2DE8BD00CAD978 /* libsqlite3.tbd in Frameworks */,
+				7B02898D1E2DE8AF00CAD978 /* libz.tbd in Frameworks */,
+				7B02898B1E2DE8A200CAD978 /* CoreTelephony.framework in Frameworks */,
+				7B0289881E2DE87A00CAD978 /* UMMobClick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,9 +404,20 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		7B0289891E2DE8A200CAD978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B02898E1E2DE8BD00CAD978 /* libsqlite3.tbd */,
+				7B02898C1E2DE8AF00CAD978 /* libz.tbd */,
+				7B02898A1E2DE8A200CAD978 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B72080C1E151E3D00BCFAE9 /* 截图效果 */ = {
 			isa = PBXGroup;
 			children = (
+				7B0289901E2E053400CAD978 /* 横向瀑布流.PNG */,
 				7B02897D1E2CC6F600CAD978 /* 瀑布流.PNG */,
 				7B02897F1E2CCD3900CAD978 /* 瀑布流2.PNG */,
 				7B8791C21E238798007C92A6 /* 本地推送.PNG */,
@@ -483,6 +514,7 @@
 				7BF4FDF41E07E9680049CB8A /* ChartCollectionTests */,
 				7BF4FDFF1E07E9680049CB8A /* ChartCollectionUITests */,
 				7BF4FDD91E07E9680049CB8A /* Products */,
+				7B0289891E2DE8A200CAD978 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -502,6 +534,7 @@
 				7B57E4421E23346F001B2E92 /* ChartCollection.entitlements */,
 				7BF4FEB31E07F1E40049CB8A /* UICountingLabel.h */,
 				7BF4FEB41E07F1E40049CB8A /* UICountingLabel.m */,
+				7B0289871E2DE87A00CAD978 /* UMMobClick.framework */,
 				7B0289471E2CC01200CAD978 /* SDWebImage */,
 				7BAFC7131E2358960071B8BC /* ZXPUnicode */,
 				7BF4FE0E1E07EF7C0049CB8A /* PNChart */,
@@ -561,6 +594,10 @@
 				7B0289421E2CBFC500CAD978 /* WaterfallCollectionViewCell.h */,
 				7B0289431E2CBFC500CAD978 /* WaterfallCollectionViewCell.m */,
 				7B0289441E2CBFC500CAD978 /* WaterfallCollectionViewCell.xib */,
+				7B0289811E2CD17C00CAD978 /* HorizWaterfallViewController.h */,
+				7B0289821E2CD17C00CAD978 /* HorizWaterfallViewController.m */,
+				7B0289841E2CD24A00CAD978 /* HorizWaterfallLayout.h */,
+				7B0289851E2CD24A00CAD978 /* HorizWaterfallLayout.m */,
 				7BF4FDE41E07E9680049CB8A /* Main.storyboard */,
 				7B65A4141E1CD4FB00888298 /* ColorProtocol.h */,
 				7BF4FDE71E07E9680049CB8A /* Assets.xcassets */,
@@ -768,6 +805,7 @@
 				7B72081A1E151E3D00BCFAE9 /* PNChart-线形图.png in Resources */,
 				7B8EA8B51E1E56D900EC4869 /* ProtocolAndDelegate.zip in Resources */,
 				7BD6186D1E1FA83E00B7CCAC /* 表盘动画.PNG in Resources */,
+				7B0289911E2E053400CAD978 /* 横向瀑布流.PNG in Resources */,
 				7B02897C1E2CC61100CAD978 /* placeholder.png in Resources */,
 				7B0289461E2CBFC500CAD978 /* WaterfallCollectionViewCell.xib in Resources */,
 				7B02897E1E2CC6F600CAD978 /* 瀑布流.PNG in Resources */,
@@ -851,6 +889,7 @@
 				7BC689511E10F7E300A63E9E /* README.md in Sources */,
 				7B0289721E2CC01200CAD978 /* UIButton+WebCache.m in Sources */,
 				7B02896C1E2CC01200CAD978 /* SDWebImageCompat.m in Sources */,
+				7B0289861E2CD24A00CAD978 /* HorizWaterfallLayout.m in Sources */,
 				7BC6894A1E10F7E300A63E9E /* ReachStateUnloaded.m in Sources */,
 				7BC689221E0D199A00A63E9E /* CountingLabelViewController.m in Sources */,
 				7B19DB481E1E210E00790450 /* GradientView.m in Sources */,
@@ -865,6 +904,7 @@
 				7BC689461E10F7E300A63E9E /* FSMEngine.m in Sources */,
 				7BC689491E10F7E300A63E9E /* ReachStateLoading.m in Sources */,
 				7B58F3C61E0CF3EA003991C8 /* BarChartViewController.m in Sources */,
+				7B0289831E2CD17C00CAD978 /* HorizWaterfallViewController.m in Sources */,
 				7BAFC71C1E2358960071B8BC /* NSObject+ZXPUnicode.m in Sources */,
 				7BF4FEB51E07F1E40049CB8A /* UICountingLabel.m in Sources */,
 				7B0289691E2CC01200CAD978 /* MKAnnotationView+WebCache.m in Sources */,
@@ -1025,6 +1065,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2L98437J77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChartCollection",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ChartCollection/Chart.pch";
 				INFOPLIST_FILE = ChartCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1038,6 +1082,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2L98437J77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChartCollection",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ChartCollection/Chart.pch";
 				INFOPLIST_FILE = ChartCollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

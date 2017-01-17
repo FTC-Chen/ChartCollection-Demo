@@ -83,6 +83,7 @@
     [self.maxYDic enumerateKeysAndObjectsUsingBlock:^(NSNumber *key, NSNumber *obj, BOOL *stop) {
         
         if ([self.maxYDic[maxIndex] floatValue] < obj.floatValue) {
+            
             maxIndex = key;
         }
     }];
@@ -146,6 +147,7 @@
 #pragma mark- 懒加载
 - (NSMutableDictionary *)maxYDic {
     if (!_maxYDic) {
+       
         _maxYDic = [[NSMutableDictionary alloc] init];
     }
     return _maxYDic;
